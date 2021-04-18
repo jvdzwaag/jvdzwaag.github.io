@@ -9,29 +9,48 @@ body {
 h1 {
 	font-size: 30px;
 	}
-	
+
+#verticall {
+		float: left;
+		width: 28%;
+		background-color: #66CDAA;
+		border-radius: 10px;
+		padding: 5px;
+		height: auto;
+		
+		
+		
+}
+
 #header{ 
 	text-align: center;
 	background-color: #008080;
 	border-radius: 10px;
 	padding: 5px;}
 
-#navigation {
+#navi-gation {
+	text-align: center;
 	background-color: #F5DEB3;
 	border-radius: 10px;
 	padding: 5px;}
 	
 #section {
+	float: right;
+	width:70%;
 	background-color: #66CDAA;
 	border-radius: 10px;
 	padding: 5px;}
-
+#section-koala {
+	background-color: #66CDAA;
+	border-radius: 10px;
+	padding: 5px;}
 
 h3	{font-size: 20px;
 	border-style: dashed;
 	border-radius: 10px;
 	padding: 5px;
 	width: 200px;
+	text-align: center;
 	
 }
 
@@ -43,6 +62,8 @@ p {
 	padding: 5px;
 		
 }
+
+#kanga {margin-left: 230px}
 img	{margin-left: 100px; 
 }
 figcaption	{margin-left: 100px;
@@ -50,6 +71,7 @@ figcaption	{margin-left: 100px;
 }
 ol	{font-size: 15px;
 color: white;
+
 }
 
 ul	{font-size: 15px;
@@ -62,9 +84,29 @@ color: white;
 	height: 100px;
 }
 
-ol {list-style-type: upper-alpha;	
+ol {list-style-type: upper-alpha;
+	
 }
 
 ul {list-style-type: square;}
 
+footer {
+	margin-top: 1300px;
+	text-align: center;
+}
 
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
